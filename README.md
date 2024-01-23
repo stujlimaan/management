@@ -16,35 +16,27 @@ This Product Management System is a web application that allows users to manage 
 - Node.js
 - MongoDB
 
-#### Installation
-1. Clone the backend repository: `git clone <backend-repo-url>`
-2. Navigate to the backend directory: `cd path_to_backend`
-3. Install dependencies: `npm install`
-
-#### Running the Server
-- Start the server: `npm start`
-- The server will run on `http://localhost:5000`
-
-### Frontend Setup
 
 #### Prerequisites
 - Node.js
 
 #### Installation
-1. Clone the frontend repository: `git clone <frontend-repo-url>`
-2. Navigate to the frontend directory: `cd path_to_frontend`
+1. Clone the frontend repository: `git clone https://github.com/stujlimaan/management`
+2. Navigate to the frontend directory: `cd management`
 3. Install dependencies: `npm install`
 
 #### Running the Application
 - Start the application: `npm start`
+- Backend running at port 3000
+- Frontend running at port 3001
 - The application will run on `http://localhost:3000`
 
 ## API Endpoints
 
-- **Create Product**: `POST /api/products`
-- **Get All Products**: `GET /api/products`
-- **Update Product**: `PUT /api/products/:id`
-- **Delete Product**: `DELETE /api/products/:id`
+- **Create Product**: `POST /products/create`
+- **Get All Products**: `GET /products`
+- **Update Product**: `PUT /products/:id`
+- **Delete Product**: `DELETE /products/:id`
 
 ## Frontend Features
 
@@ -71,4 +63,3 @@ This Product Management System is a web application that allows users to manage 
 
 ---
 
-Replace `<backend-repo-url>` and `<frontend-repo-url>` with the actual URLs of your repositories. Adapt the instructions and details as needed to match the specifics of your project.
